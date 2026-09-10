@@ -88,7 +88,6 @@ export default function Home({ cambiarVista }) {
         </header>
 
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          {/* Tarjeta 1 */}
           <article className="group bg-white p-6 rounded-2xl border border-stone-200/80 shadow-sm hover:border-2 hover:border-lime-600 hover:shadow-md transition-all duration-200 cursor-pointer">
             <figure className="w-10 h-10 rounded-xl bg-stone-100 group-hover:bg-lime-100 flex items-center justify-center mb-4 m-0 transition-colors duration-200">
               <svg className="w-5 h-5 stroke-amber-950 group-hover:stroke-lime-700 transition-colors duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -103,7 +102,6 @@ export default function Home({ cambiarVista }) {
             </p>
           </article>
 
-          {/* Tarjeta 2 */}
           <article className="group bg-white p-6 rounded-2xl border border-stone-200/80 shadow-sm hover:border-2 hover:border-lime-600 hover:shadow-md transition-all duration-200 cursor-pointer">
             <figure className="w-10 h-10 rounded-xl bg-stone-100 group-hover:bg-lime-100 flex items-center justify-center mb-4 m-0 transition-colors duration-200">
               <svg className="w-5 h-5 stroke-amber-950 group-hover:stroke-lime-700 transition-colors duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -118,7 +116,6 @@ export default function Home({ cambiarVista }) {
             </p>
           </article>
 
-          {/* Tarjeta 3 */}
           <article className="group bg-white p-6 rounded-2xl border border-stone-200/80 shadow-sm hover:border-2 hover:border-lime-600 hover:shadow-md transition-all duration-200 cursor-pointer">
             <figure className="w-10 h-10 rounded-xl bg-stone-100 group-hover:bg-lime-100 flex items-center justify-center mb-4 m-0 transition-colors duration-200">
               <svg className="w-5 h-5 stroke-amber-950 group-hover:stroke-lime-700 transition-colors duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -133,7 +130,6 @@ export default function Home({ cambiarVista }) {
             </p>
           </article>
 
-          {/* Tarjeta 4 */}
           <article className="group bg-white p-6 rounded-2xl border border-stone-200/80 shadow-sm hover:border-2 hover:border-lime-600 hover:shadow-md transition-all duration-200 cursor-pointer">
             <figure className="w-10 h-10 rounded-xl bg-stone-100 group-hover:bg-lime-100 flex items-center justify-center mb-4 m-0 transition-colors duration-200">
               <svg className="w-5 h-5 stroke-amber-950 group-hover:stroke-lime-700 transition-colors duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -148,7 +144,6 @@ export default function Home({ cambiarVista }) {
             </p>
           </article>
 
-          {/* Tarjeta 5 */}
           <article className="group bg-white p-6 rounded-2xl border border-stone-200/80 shadow-sm hover:border-2 hover:border-lime-600 hover:shadow-md transition-all duration-200 cursor-pointer">
             <figure className="w-10 h-10 rounded-xl bg-stone-100 group-hover:bg-lime-100 flex items-center justify-center mb-4 m-0 transition-colors duration-200">
               <svg className="w-5 h-5 stroke-amber-950 group-hover:stroke-lime-700 transition-colors duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -163,7 +158,6 @@ export default function Home({ cambiarVista }) {
             </p>
           </article>
 
-          {/* Tarjeta 6 */}
           <article className="group bg-white p-6 rounded-2xl border border-stone-200/80 shadow-sm hover:border-2 hover:border-lime-600 hover:shadow-md transition-all duration-200 cursor-pointer">
             <figure className="w-10 h-10 rounded-xl bg-stone-100 group-hover:bg-lime-100 flex items-center justify-center mb-4 m-0 transition-colors duration-200">
               <svg className="w-5 h-5 stroke-amber-950 group-hover:stroke-lime-700 transition-colors duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -177,6 +171,71 @@ export default function Home({ cambiarVista }) {
               Visualiza estadísticas, tendencias y métricas de producción con dashboards interactivos.
             </p>
           </article>
+        </section>
+      </section>
+
+      <section className="w-full py-16 px-8 md:px-16 bg-white">
+        <section className="max-w-6xl mx-auto bg-stone-100/70 rounded-3xl p-8 md:p-12 grid grid-cols-1 md:grid-cols-12 gap-8 items-center border border-stone-200/60 shadow-sm">
+          <figure className="m-0 md:col-span-5 h-[320px] md:h-[420px] rounded-2xl overflow-hidden shadow-md">
+            <img
+              src="src/assets/imagenes/cultivo.jpg"
+              alt="Planta de café"
+              className="w-full h-full object-cover"
+            />
+          </figure>
+
+          <section className="md:col-span-7 flex flex-col justify-center space-y-6">
+            <header>
+              <h2 className="text-3xl md:text-4xl font-extrabold text-amber-950 leading-tight mb-3">
+                Optimiza tu Producción Cafetera
+              </h2>
+              <p className="text-stone-600 text-sm md:text-base leading-relaxed">
+                CoffeeTech ayuda a los caficultores a transformar sus procesos tradicionales en operaciones modernas y eficientes mediante tecnología de punta.
+              </p>
+            </header>
+
+            <ul className="space-y-4 m-0 p-0 list-none">
+              <li className="flex items-start gap-3">
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-lime-200/80 text-lime-800 flex items-center justify-center font-bold text-xs mt-0.5">
+                  ✓
+                </span>
+                <section>
+                  <h3 className="text-sm font-bold text-amber-950">Toma Decisiones Informadas</h3>
+                  <p className="text-stone-500 text-xs md:text-sm">Accede a datos en tiempo real sobre el estado de tus cultivos, clima y producción.</p>
+                </section>
+              </li>
+
+              <li className="flex items-start gap-3">
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-lime-200/80 text-lime-800 flex items-center justify-center font-bold text-xs mt-0.5">
+                  ✓
+                </span>
+                <section>
+                  <h3 className="text-sm font-bold text-amber-950">Mejora la Calidad del Café</h3>
+                  <p className="text-stone-500 text-xs md:text-sm">Controla variables críticas que impactan directamente en el sabor y aroma de tu café.</p>
+                </section>
+              </li>
+
+              <li className="flex items-start gap-3">
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-lime-200/80 text-lime-800 flex items-center justify-center font-bold text-xs mt-0.5">
+                  ✓
+                </span>
+                <section>
+                  <h3 className="text-sm font-bold text-amber-950">Aumenta la Rentabilidad</h3>
+                  <p className="text-stone-500 text-xs md:text-sm">Optimiza recursos, reduce pérdidas y maximiza el rendimiento de tus plantaciones.</p>
+                </section>
+              </li>
+
+              <li className="flex items-start gap-3">
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-lime-200/80 text-lime-800 flex items-center justify-center font-bold text-xs mt-0.5">
+                  ✓
+                </span>
+                <section>
+                  <h3 className="text-sm font-bold text-amber-950">Gestión Sostenible</h3>
+                  <p className="text-stone-500 text-xs md:text-sm">Implementa prácticas agrícolas responsables con el medio ambiente.</p>
+                </section>
+              </li>
+            </ul>
+          </section>
         </section>
       </section>
     </article>
